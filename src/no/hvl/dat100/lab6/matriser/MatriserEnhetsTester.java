@@ -40,6 +40,14 @@ class MatriserEnhetsTester {
 		
 	}
 	
+	
+	@Test
+	
+	void skrivUt () {
+		Matriser.skrivUt(a);
+		Matriser.skrivUt(b);
+	}
+	
 	@Test
 	void testtilStreng() {
 		
